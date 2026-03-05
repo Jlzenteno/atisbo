@@ -1,0 +1,316 @@
+{
+  "project": {
+    "name": "ATISBO",
+    "creator": "Isabel",
+    "studio": "Kutral Studio",
+    "project_tagline": "Todo Chile en Bicicleta",
+    "description": "ATISBO es un proyecto documental de viajes donde Isabel, una viajera chilena, está recorriendo todas las comunas de Chile en bicicleta. El sitio web será la plataforma central para documentar el viaje, publicar bitácoras, fotografías, videos y mostrar el progreso del proyecto.",
+    "reference_sites": {
+      "current_site": "https://sites.google.com/view/atisbo",
+      "instagram": "https://www.instagram.com/_atisbo"
+    }
+  },
+
+  "legacy_data": {
+    "description": "Existe una carpeta llamada 'info-web-atisbo' que contiene un proyecto antiguo en HTML con información extraída desde el sitio actual de Google Sites.",
+    "purpose": "La IA debe analizar esta carpeta para reutilizar contenido existente como textos, estructura de páginas, información del proyecto y datos históricos.",
+    "instructions": [
+      "Analizar los archivos HTML dentro de la carpeta 'info-web-atisbo'.",
+      "Extraer contenido útil como textos, bitácoras, secciones del proyecto y descripciones.",
+      "Reorganizar esta información dentro de la nueva arquitectura del sitio.",
+      "Optimizar los textos para SEO y storytelling.",
+      "Eliminar elementos innecesarios o repetidos."
+    ]
+  },
+
+  "goal": {
+    "main_objective": "Crear una plataforma web moderna, minimalista y altamente visual para documentar el proyecto Todo Chile en Bicicleta.",
+    "experience": "El sitio debe sentirse como un documental interactivo de viajes.",
+    "future_goal": "Convertirse en una plataforma modelo para creadores de contenido de aventura, cicloviajeros e influencers de viajes."
+  },
+
+  "design_principles": {
+    "style": [
+      "minimalista",
+      "emocional",
+      "cinematográfico",
+      "narrativo",
+      "fotografía como protagonista"
+    ],
+    "inspiration": [
+      "Patagonia",
+      "Apple storytelling",
+      "National Geographic",
+      "Airbnb Experiences",
+      "Notion minimal UI"
+    ],
+    "ui_principles": [
+      "mucho espacio en blanco",
+      "scroll narrativo",
+      "tipografía elegante",
+      "fotografías en pantalla completa",
+      "animaciones suaves"
+    ]
+  },
+
+  "tech_stack": {
+    "frontend": [
+      "Next.js App Router",
+      "React",
+      "TypeScript"
+    ],
+    "backend": [
+      "Supabase"
+    ],
+    "database": "PostgreSQL (Supabase)",
+    "email_service": "Resend",
+    "image_cdn": "Cloudinary",
+    "hosting": "Vercel"
+  },
+
+  "architecture": {
+    "folders": [
+      "/app",
+      "/components",
+      "/components/ui",
+      "/components/map",
+      "/components/blog",
+      "/components/gallery",
+      "/components/layout",
+      "/lib",
+      "/services",
+      "/hooks",
+      "/types",
+      "/styles",
+      "/utils"
+    ],
+    "principles": [
+      "componentes reutilizables",
+      "separación de lógica y UI",
+      "server components donde sea posible",
+      "optimización para performance"
+    ]
+  },
+
+  "core_features": {
+
+    "home_page": {
+      "hero_section": {
+        "type": "fullscreen",
+        "elements": [
+          "fotografía destacada",
+          "headline poderoso",
+          "subheadline inspirador",
+          "botón explorar viaje"
+        ],
+        "headline_example": "Todo Chile en Bicicleta",
+        "subheadline_example": "Una travesía para recorrer cada rincón del país sobre dos ruedas."
+      },
+
+      "interactive_map_preview": {
+        "description": "Mapa interactivo de Chile mostrando el progreso del viaje.",
+        "features": [
+          "regiones coloreadas cuando se completan",
+          "comunas recorridas marcadas",
+          "animación al hacer hover"
+        ]
+      },
+
+      "latest_journal_entries": {
+        "description": "Mostrar las últimas bitácoras de viaje.",
+        "layout": "cards grandes con foto"
+      },
+
+      "project_stats": {
+        "metrics": [
+          "comunas recorridas",
+          "regiones visitadas",
+          "kilómetros recorridos",
+          "días en ruta"
+        ]
+      },
+
+      "featured_photos": {
+        "description": "Galería visual destacada en el home.",
+        "layout": "grid estilo instagram premium"
+      },
+
+      "newsletter": {
+        "description": "Invitar a los usuarios a seguir el viaje."
+      }
+    },
+
+    "travel_blog": {
+      "route": "/blog/[slug]",
+      "features": [
+        "bitácoras de viaje",
+        "fotografía destacada",
+        "contenido narrativo",
+        "galería dentro del artículo",
+        "video embebido"
+      ]
+    },
+
+    "interactive_chile_map": {
+      "description": "Mapa interactivo del país mostrando el progreso del proyecto.",
+      "features": [
+        "mapa SVG de Chile",
+        "hover sobre regiones",
+        "click en regiones para ver comunas",
+        "marcar comunas recorridas",
+        "mostrar progreso visual"
+      ],
+      "routes": [
+        "/mapa",
+        "/regiones",
+        "/regiones/[region]"
+      ]
+    },
+
+    "timeline": {
+      "description": "Timeline del viaje mostrando progreso por año.",
+      "features": [
+        "scroll vertical",
+        "eventos destacados",
+        "fotografías"
+      ]
+    },
+
+    "gallery": {
+      "route": "/galeria",
+      "layout": "grid tipo pinterest",
+      "features": [
+        "fotografía fullscreen",
+        "modal para ampliar imagen",
+        "lazy loading"
+      ]
+    },
+
+    "about_project": {
+      "route": "/proyecto",
+      "sections": [
+        "quien es isabel",
+        "origen del proyecto",
+        "todo chile en bicicleta",
+        "vision futura"
+      ]
+    },
+
+    "social_hub": {
+      "description": "Integración de redes sociales.",
+      "platforms": [
+        "Instagram",
+        "YouTube",
+        "TikTok"
+      ]
+    },
+
+    "newsletter": {
+      "service": "Resend",
+      "features": [
+        "suscripción",
+        "confirmación por email",
+        "envío de nuevas bitácoras"
+      ]
+    }
+  },
+
+  "database_schema": {
+
+    "users": {
+      "fields": [
+        "id",
+        "name",
+        "email",
+        "role",
+        "created_at"
+      ]
+    },
+
+    "posts": {
+      "fields": [
+        "id",
+        "title",
+        "slug",
+        "content",
+        "region",
+        "comuna",
+        "date",
+        "cover_image",
+        "published",
+        "created_at"
+      ]
+    },
+
+    "photos": {
+      "fields": [
+        "id",
+        "post_id",
+        "image_url",
+        "caption",
+        "order"
+      ]
+    },
+
+    "regions": {
+      "fields": [
+        "id",
+        "name",
+        "visited"
+      ]
+    },
+
+    "comunas": {
+      "fields": [
+        "id",
+        "name",
+        "region_id",
+        "visited"
+      ]
+    },
+
+    "subscribers": {
+      "fields": [
+        "id",
+        "email",
+        "created_at"
+      ]
+    }
+  },
+
+  "seo_strategy": {
+    "features": [
+      "meta title",
+      "meta description",
+      "open graph",
+      "structured data"
+    ],
+    "target_keywords": [
+      "viajar por chile en bicicleta",
+      "cicloviaje chile",
+      "rutas en bicicleta chile"
+    ]
+  },
+
+  "performance": {
+    "techniques": [
+      "server components",
+      "lazy loading",
+      "image optimization",
+      "cdn global"
+    ]
+  },
+
+  "future_expansion": [
+    "donaciones",
+    "sponsors",
+    "mapa mundial de viajes",
+    "tienda online",
+    "documental del viaje"
+  ],
+
+  "final_goal": {
+    "description": "Crear una plataforma de storytelling visual de nivel profesional que se convierta en referencia para influencers de viajes, cicloviajeros y exploradores.",
+    "experience": "El sitio debe sentirse como un documental interactivo donde el usuario explora el viaje."
+  }
+}

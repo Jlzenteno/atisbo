@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Error 500 - Atisbo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f2f2f2;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 100vh;
+      overflow: hidden;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 5rem;
+      margin-bottom: 0.2em;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1em;
+      color: #666;
+    }
+
+    a.button {
+      display: inline-block;
+      margin-top: 1.5rem;
+      background-color: #000;
+      color: #fff;
+      text-decoration: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+      font-weight: bold;
+    }
+
+    a.button:hover {
+      background-color: #333;
+    }
+
+    .bike-wrapper {
+      width: 100%;
+      overflow: hidden;
+      margin-top: 2rem;
+      height: 200px;
+      position: relative;
+    }
+
+    .bike {
+      width: 120px;
+      position: absolute;
+      bottom: 0;
+      left: -150px;
+      animation: ride 8s linear infinite;
+    }
+
+    @keyframes ride {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(120vw); }
+    }
+
+    footer {
+      position: absolute;
+      bottom: 1rem;
+      font-size: 0.85rem;
+      color: #888;
+    }
+
+    footer a {
+      color: #555;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>500</h1>
+  <h2>¡Oops! Algo salió mal en el camino</h2>
+  <p>Estamos pedaleando para arreglarlo. Pronto volveremos a la ruta 🚴‍♀️</p>
+
+  <a href="/" class="button">Volver al inicio</a>
+
+  <div class="bike-wrapper">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Bicycle_icon.svg" alt="Bicicleta" class="bike">
+  </div>
+
+  <footer>
+    © 2025 Atisbo · Diseñado por <a href="https://kutralestudio.cl/" target="_blank">Kutral Studio 🔥</a>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,930 @@
+{
+  "regions": [
+    {
+      "id": "araucania",
+      "name": "Región de la Araucanía",
+      "slug": "araucania",
+      "description": "La Región de La Araucanía se caracteriza por sus volcanes activos, lagos cristalinos, densos bosques de araucarias y la presencia viva de la cultura mapuche. Es una tierra de contrastes naturales y riqueza cultural.",
+      "visited": true
+    },
+    {
+      "id": "biobio",
+      "name": "Región del Biobío",
+      "slug": "biobio",
+      "description": "La Región del Biobío, marcada por su fuerza natural y su identidad histórica, ha sido un hito clave en el proyecto. Desde la cordillera hasta la costa, cada kilómetro está cargado de memoria, resistencia y belleza diversa.",
+      "visited": true
+    },
+    {
+      "id": "de-aysen",
+      "name": "Región de los Ríos",
+      "slug": "de-aysen",
+      "description": "La Región de Aysén del General Carlos Ibáñez del Campo es uno de los territorios más indómitos y sobrecogedores de Chile. Ubicada en plena Patagonia, es famosa por sus paisajes majestuosos de montañas, fiordos, glaciares y ríos cristalinos.",
+      "visited": true
+    },
+    {
+      "id": "de-los-lagos",
+      "name": "Región de los Ríos",
+      "slug": "de-los-lagos",
+      "description": "La Región de Los Lagos es un territorio mágico del sur de Chile, conocido por sus imponentes volcanes, vastos lagos, canales, y una profunda cultura chilota. Con una diversidad geográfica que abarca desde los fiordos de Palena hasta los verdes campos de Osorno, recorrer esta región en bicicleta es adentrarse en un mundo lleno de historia, tradición y naturaleza.",
+      "visited": true
+    },
+    {
+      "id": "de-los-rios",
+      "name": "Región de los Ríos",
+      "slug": "de-los-rios",
+      "description": "La Región de Los Ríos, con sus paisajes verdes y su red de ríos que atraviesan bosques templados lluviosos, ofrece una experiencia única para el cicloviaje. \n    Es un territorio lleno de vida, cultura mapuche, historia colonial y naturaleza prístina.",
+      "visited": true
+    },
+    {
+      "id": "de-magallanes",
+      "name": "Región de Magallanes y de la Antártica Chilena",
+      "slug": "de-magallanes",
+      "description": "La Región de Magallanes y de la Antártica Chilena es el extremo más austral de Chile y del continente sudamericano. Sus paisajes sobrecogen por su inmensidad, con fiordos, glaciares, pampas infinitas y cielos que parecen no acabar.",
+      "visited": true
+    }
+  ],
+  "comunas": [
+    {
+      "region_id": "araucania",
+      "name": "TEMUCO",
+      "slug": "temuco",
+      "visited": true,
+      "image_cover": "/img/comunas/temuco.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "CARAHUE",
+      "slug": "carahue",
+      "visited": true,
+      "image_cover": "/img/comunas/carahue.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "CHOL CHOL",
+      "slug": "chol-chol",
+      "visited": true,
+      "image_cover": "/img/comunas/chol-chol.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "CUNCO",
+      "slug": "cunco",
+      "visited": true,
+      "image_cover": "/img/comunas/cunco.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "CARARREHUE",
+      "slug": "cararrehue",
+      "visited": true,
+      "image_cover": "/img/comunas/cararrehue.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "FREIRE",
+      "slug": "freire",
+      "visited": true,
+      "image_cover": "/img/comunas/freire.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "GALVARINO",
+      "slug": "galvarino",
+      "visited": true,
+      "image_cover": "/img/comunas/galvarino.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "GORBEA",
+      "slug": "gorbea",
+      "visited": true,
+      "image_cover": "/img/comunas/gorbea.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "LAUTARO",
+      "slug": "lautaro",
+      "visited": true,
+      "image_cover": "/img/comunas/lautaro.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "LONCOCHE",
+      "slug": "loncoche",
+      "visited": true,
+      "image_cover": "/img/comunas/loncoche.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "MELIPEUCO",
+      "slug": "melipeuco",
+      "visited": true,
+      "image_cover": "/img/comunas/melipeuco.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "NUEVA IMPERIAL",
+      "slug": "nueva-imperial",
+      "visited": true,
+      "image_cover": "/img/comunas/nueva-imperial.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "PADRE LAS CASAS",
+      "slug": "padre-las-casas",
+      "visited": true,
+      "image_cover": "/img/comunas/padre-las-casas.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "PERQUENCO",
+      "slug": "perquenco",
+      "visited": true,
+      "image_cover": "/img/comunas/perquenco.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "PITRUFQUÉN",
+      "slug": "pitrufquen",
+      "visited": true,
+      "image_cover": "/img/comunas/pitrufquen.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "PUCÓN",
+      "slug": "pucon",
+      "visited": true,
+      "image_cover": "/img/comunas/pucon.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "SAAVEDRA",
+      "slug": "saavedra",
+      "visited": true,
+      "image_cover": "/img/comunas/saavedra.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "TEODORO SCHMIDT",
+      "slug": "teodoro-schmidt",
+      "visited": true,
+      "image_cover": "/img/comunas/teodoro-schmidt.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "TOLTÉN",
+      "slug": "tolten",
+      "visited": true,
+      "image_cover": "/img/comunas/tolten.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "VILLARICA",
+      "slug": "villarica",
+      "visited": true,
+      "image_cover": "/img/comunas/villarica.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "VILCÚN",
+      "slug": "vilcun",
+      "visited": true,
+      "image_cover": "/img/comunas/vilcun.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "ANGOL",
+      "slug": "angol",
+      "visited": true,
+      "image_cover": "/img/comunas/angol.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "COLLIPULLI",
+      "slug": "collipulli",
+      "visited": true,
+      "image_cover": "/img/comunas/collipulli.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "CURACAUTÍN",
+      "slug": "curacautin",
+      "visited": true,
+      "image_cover": "/img/comunas/curacautin.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "ERCILLA",
+      "slug": "ercilla",
+      "visited": true,
+      "image_cover": "/img/comunas/ercilla.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "LONQUIMAY",
+      "slug": "lonquimay",
+      "visited": true,
+      "image_cover": "/img/comunas/lonquimay.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "LOS SAUCES",
+      "slug": "los-sauces",
+      "visited": true,
+      "image_cover": "/img/comunas/los-sauces.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "LUMACO",
+      "slug": "lumaco",
+      "visited": true,
+      "image_cover": "/img/comunas/lumaco.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "PURÉN",
+      "slug": "puren",
+      "visited": true,
+      "image_cover": "/img/comunas/puren.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "RENAICO",
+      "slug": "renaico",
+      "visited": true,
+      "image_cover": "/img/comunas/renaico.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "TRAIGUÉN",
+      "slug": "traiguen",
+      "visited": true,
+      "image_cover": "/img/comunas/traiguen.JPG"
+    },
+    {
+      "region_id": "araucania",
+      "name": "VICTORIA",
+      "slug": "victoria",
+      "visited": true,
+      "image_cover": "/img/comunas/victoria.JPG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "ARAUCO",
+      "slug": "arauco",
+      "visited": true,
+      "image_cover": "/img/comunas/arauco.JPG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "CAÑETE",
+      "slug": "cañete",
+      "visited": true,
+      "image_cover": "/img/comunas/canete.JPG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "CONTULMO",
+      "slug": "contulmo",
+      "visited": true,
+      "image_cover": "/img/comunas/contulmo.JPG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "CURANILAHUE",
+      "slug": "curanilahue",
+      "visited": true,
+      "image_cover": "/img/comunas/CURANILAHUE.JPG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "LOS ALAMOS",
+      "slug": "los-alamos",
+      "visited": true,
+      "image_cover": "/img/comunas/LEBU.JPG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "TIRÚA",
+      "slug": "tirua",
+      "visited": true,
+      "image_cover": "/img/comunas/tirua.JPG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "LEBU",
+      "slug": "lebu",
+      "visited": true,
+      "image_cover": "/img/comunas/LOS-ALAMOS.JPG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "CONCEPCIÓN",
+      "slug": "concepcion",
+      "visited": true,
+      "image_cover": "/img/comunas/concepcion.PNG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "CORONEL",
+      "slug": "coronel",
+      "visited": true,
+      "image_cover": "/img/comunas/coronel.JPG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "FLORIDA",
+      "slug": "florida",
+      "visited": true,
+      "image_cover": "/img/comunas/florida.JPG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "HUALPÉN",
+      "slug": "hualpen",
+      "visited": true,
+      "image_cover": "/img/comunas/hualpen.JPG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "HUALQUI",
+      "slug": "hualqui",
+      "visited": true,
+      "image_cover": "/img/comunas/hualqui.JPG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "LOTA",
+      "slug": "lota",
+      "visited": true,
+      "image_cover": "/img/comunas/lota.JPG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "PENCO",
+      "slug": "penco",
+      "visited": true,
+      "image_cover": "/img/comunas/penco.JPG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "SAN PEDRO DE LA PAZ",
+      "slug": "san-pedro-de-la-paz",
+      "visited": true,
+      "image_cover": "/img/comunas/san-pedro-de-la-paz.JPG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "SANTA JUANA",
+      "slug": "santa-juana",
+      "visited": true,
+      "image_cover": "/img/comunas/santa-juana.jpg"
+    },
+    {
+      "region_id": "biobio",
+      "name": "TALCAHUANO",
+      "slug": "talcahuano",
+      "visited": true,
+      "image_cover": "/img/comunas/talcahuano.JPG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "TOMÉ",
+      "slug": "tome",
+      "visited": true,
+      "image_cover": "/img/comunas/tome.JPG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "ALTO BIOBÍO",
+      "slug": "alto-biobio",
+      "visited": true,
+      "image_cover": "/img/comunas/alto-biobio.jpg"
+    },
+    {
+      "region_id": "biobio",
+      "name": "ANTUCO",
+      "slug": "antuco",
+      "visited": true,
+      "image_cover": "/img/comunas/antuco.JPG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "CABRERO",
+      "slug": "cabrero",
+      "visited": true,
+      "image_cover": "/img/comunas/cabrero.JPG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "LAJA",
+      "slug": "laja",
+      "visited": true,
+      "image_cover": "/img/comunas/laja.JPG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "LOS ÁNGELES",
+      "slug": "los-angeles",
+      "visited": true,
+      "image_cover": "/img/comunas/los-angeles.PNG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "MULCHÉN",
+      "slug": "mulchen",
+      "visited": true,
+      "image_cover": "/img/comunas/mulchen.JPG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "NACIMIENTO",
+      "slug": "nacimiento",
+      "visited": true,
+      "image_cover": "/img/comunas/nacimiento.JPG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "NEGRETE",
+      "slug": "negrete",
+      "visited": true,
+      "image_cover": "/img/comunas/negrete.JPG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "QUILLECO",
+      "slug": "quilleco",
+      "visited": true,
+      "image_cover": "/img/comunas/quilleco.JPG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "SAN ROSENDO",
+      "slug": "san-rosendo",
+      "visited": true,
+      "image_cover": "/img/comunas/san-rosendo.JPG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "SANTA BÁRBARA",
+      "slug": "santa-barbara",
+      "visited": true,
+      "image_cover": "/img/comunas/santa-barbara.JPG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "TUCAPEL",
+      "slug": "tucapel",
+      "visited": true,
+      "image_cover": "/img/comunas/tucapel.JPG"
+    },
+    {
+      "region_id": "biobio",
+      "name": "YUMBEL",
+      "slug": "yumbel",
+      "visited": true,
+      "image_cover": "/img/comunas/yumbel.JPG"
+    },
+    {
+      "region_id": "de-aysen",
+      "name": "AYSÉN",
+      "slug": "aysen",
+      "visited": true,
+      "image_cover": "/img/comunas/AYSEN.JPG"
+    },
+    {
+      "region_id": "de-aysen",
+      "name": "PUERTO CISNES",
+      "slug": "puerto-cisnes",
+      "visited": true,
+      "image_cover": "/img/comunas/PUERTO-CISNES.JPG"
+    },
+    {
+      "region_id": "de-aysen",
+      "name": "GUAITECAS",
+      "slug": "guaitecas",
+      "visited": true,
+      "image_cover": "/img/comunas/guaitecas.jpg"
+    },
+    {
+      "region_id": "de-aysen",
+      "name": "CHILE CHICO",
+      "slug": "chile-chico",
+      "visited": true,
+      "image_cover": "/img/comunas/chile-chico.jpg"
+    },
+    {
+      "region_id": "de-aysen",
+      "name": "RÍO IBÁÑEZ",
+      "slug": "rio-ibañez",
+      "visited": true,
+      "image_cover": "/img/comunas/rio-ibanez.jpg"
+    },
+    {
+      "region_id": "de-aysen",
+      "name": "COCHRANE",
+      "slug": "cochrane",
+      "visited": true,
+      "image_cover": "/img/comunas/cochrane.jpg"
+    },
+    {
+      "region_id": "de-aysen",
+      "name": "O’HIGGINS",
+      "slug": "o’higgins",
+      "visited": true,
+      "image_cover": "/img/comunas/ohiggins.jpg"
+    },
+    {
+      "region_id": "de-aysen",
+      "name": "TORTEL",
+      "slug": "tortel",
+      "visited": true,
+      "image_cover": "/img/comunas/tortel.jpg"
+    },
+    {
+      "region_id": "de-aysen",
+      "name": "COYHAIQUE",
+      "slug": "coyhaique",
+      "visited": true,
+      "image_cover": "/img/comunas/coyhaique.jpg"
+    },
+    {
+      "region_id": "de-aysen",
+      "name": "LAGO VERDE",
+      "slug": "lago-verde",
+      "visited": true,
+      "image_cover": "/img/comunas/lago-verde.jpg"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "CASTRO",
+      "slug": "castro",
+      "visited": true,
+      "image_cover": "/img/comunas/CASTRO.PNG"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "ANCUD",
+      "slug": "ancud",
+      "visited": true,
+      "image_cover": "/img/comunas/ancud.jpg"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "CHONCHI",
+      "slug": "chonchi",
+      "visited": true,
+      "image_cover": "/img/comunas/CHONCHI.PNG"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "CURACO DE VÉLEZ",
+      "slug": "curaco-de-velez",
+      "visited": true,
+      "image_cover": "/img/comunas/CURACO-DE-VELEZ.PNG"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "DALCAHUE",
+      "slug": "dalcahue",
+      "visited": true,
+      "image_cover": "/img/comunas/dalcahue.jpg"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "PUQUELDÓN",
+      "slug": "puqueldon",
+      "visited": true,
+      "image_cover": "/img/comunas/puqueldon.jpg"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "QUEILÉN",
+      "slug": "queilen",
+      "visited": true,
+      "image_cover": "/img/comunas/queilen.jpg"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "QUELLÓN",
+      "slug": "quellon",
+      "visited": true,
+      "image_cover": "/img/comunas/QUELLON.PNG"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "QUEMCHI",
+      "slug": "quemchi",
+      "visited": true,
+      "image_cover": "/img/comunas/QUEMCHI.PNG"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "QUINCHAO",
+      "slug": "quinchao",
+      "visited": true,
+      "image_cover": "/img/comunas/quinchao.jpg"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "PUERTO MONTT",
+      "slug": "puerto-montt",
+      "visited": true,
+      "image_cover": "/img/comunas/puerto-montt.jpg"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "CALBUCO",
+      "slug": "calbuco",
+      "visited": true,
+      "image_cover": "/img/comunas/calbuco.jpg"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "COCHAMÓ",
+      "slug": "cochamo",
+      "visited": true,
+      "image_cover": "/img/comunas/COCHAMO.PNG"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "FRESIA",
+      "slug": "fresia",
+      "visited": true,
+      "image_cover": "/img/comunas/fresia.jpg"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "FRUTILLAR",
+      "slug": "frutillar",
+      "visited": true,
+      "image_cover": "/img/comunas/FRUTILLAR.PNG"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "LOS MUERMOS",
+      "slug": "los-muermos",
+      "visited": true,
+      "image_cover": "/img/comunas/los-muermos.jpg"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "LLANQUIHUE",
+      "slug": "llanquihue",
+      "visited": true,
+      "image_cover": "/img/comunas/LLANQUIHUE.PNG"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "MAULLÍN",
+      "slug": "maullin",
+      "visited": true,
+      "image_cover": "/img/comunas/maullin.jpg"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "PUERTO VARAS",
+      "slug": "puerto-varas",
+      "visited": true,
+      "image_cover": "/img/comunas/PUERTO-VARAS.PNG"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "OSORNO",
+      "slug": "osorno",
+      "visited": true,
+      "image_cover": "/img/comunas/osorno.jpg"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "PUERTO OCTAY",
+      "slug": "puerto-octay",
+      "visited": true,
+      "image_cover": "/img/comunas/puerto-octay.jpg"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "PURRANQUE",
+      "slug": "purranque",
+      "visited": true,
+      "image_cover": "/img/comunas/purranque.jpg"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "PUYEHUE",
+      "slug": "puyehue",
+      "visited": true,
+      "image_cover": "/img/comunas/puyehue.jpg"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "RÍO NEGRO",
+      "slug": "rio-negro",
+      "visited": true,
+      "image_cover": "/img/comunas/rio-negro.jpg"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "SAN JUAN DE LA COSTA",
+      "slug": "san-juan-de-la-costa",
+      "visited": true,
+      "image_cover": "/img/comunas/san-juan-de-la-costa.jpg"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "SAN PABLO",
+      "slug": "san-pablo",
+      "visited": true,
+      "image_cover": "/img/comunas/san-pablo.jpg"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "CHAITÉN",
+      "slug": "chaiten",
+      "visited": true,
+      "image_cover": "/img/comunas/chaiten.jpg"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "FUTALEUFÚ",
+      "slug": "futaleufu",
+      "visited": true,
+      "image_cover": "/img/comunas/futaleufu.jpg"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "HUALAIHUÉ",
+      "slug": "hualaihue",
+      "visited": true,
+      "image_cover": "/img/comunas/HUALAIHUE.PNG"
+    },
+    {
+      "region_id": "de-los-lagos",
+      "name": "PALENA",
+      "slug": "palena",
+      "visited": true,
+      "image_cover": "/img/comunas/palena.jpg"
+    },
+    {
+      "region_id": "de-los-rios",
+      "name": "VALDIVIA",
+      "slug": "valdivia",
+      "visited": true,
+      "image_cover": "/img/comunas/valdivia.jpg"
+    },
+    {
+      "region_id": "de-los-rios",
+      "name": "CORRAL",
+      "slug": "corral",
+      "visited": true,
+      "image_cover": "/img/comunas/corral.jpg"
+    },
+    {
+      "region_id": "de-los-rios",
+      "name": "LANCO",
+      "slug": "lanco",
+      "visited": true,
+      "image_cover": "/img/comunas/lanco.jpg"
+    },
+    {
+      "region_id": "de-los-rios",
+      "name": "LOS LAGOS",
+      "slug": "los-lagos",
+      "visited": true,
+      "image_cover": "/img/comunas/LOS-LAGOS.PNG"
+    },
+    {
+      "region_id": "de-los-rios",
+      "name": "MÁFIL",
+      "slug": "mafil",
+      "visited": true,
+      "image_cover": "/img/comunas/mafil.jpg"
+    },
+    {
+      "region_id": "de-los-rios",
+      "name": "MARIQUINA",
+      "slug": "mariquina",
+      "visited": true,
+      "image_cover": "/img/comunas/MARIQUINA.PNG"
+    },
+    {
+      "region_id": "de-los-rios",
+      "name": "PAILLACO",
+      "slug": "paillaco",
+      "visited": true,
+      "image_cover": "/img/comunas/paillaco.jpg"
+    },
+    {
+      "region_id": "de-los-rios",
+      "name": "PANGUIPULLI",
+      "slug": "panguipulli",
+      "visited": true,
+      "image_cover": "/img/comunas/panguipulli.jpg"
+    },
+    {
+      "region_id": "de-los-rios",
+      "name": "LA UNIÓN",
+      "slug": "la-union",
+      "visited": true,
+      "image_cover": "/img/comunas/la-union.jpg"
+    },
+    {
+      "region_id": "de-los-rios",
+      "name": "FUTRONO",
+      "slug": "futrono",
+      "visited": true,
+      "image_cover": "/img/comunas/futrono.jpg"
+    },
+    {
+      "region_id": "de-los-rios",
+      "name": "LAGO RANCO",
+      "slug": "lago-ranco",
+      "visited": true,
+      "image_cover": "/img/comunas/lago-ranco.jpg"
+    },
+    {
+      "region_id": "de-los-rios",
+      "name": "RÍO BUENO",
+      "slug": "rio-bueno",
+      "visited": true,
+      "image_cover": "/img/comunas/rio-bueno.jpg"
+    },
+    {
+      "region_id": "de-magallanes",
+      "name": "PUNTA ARENAS",
+      "slug": "punta-arenas",
+      "visited": true,
+      "image_cover": "/img/comunas/punta-arenas.jpg"
+    },
+    {
+      "region_id": "de-magallanes",
+      "name": "RÍO VERDE",
+      "slug": "rio-verde",
+      "visited": true,
+      "image_cover": "/img/comunas/rio-verde.jpg"
+    },
+    {
+      "region_id": "de-magallanes",
+      "name": "LAGUNA BLANCA",
+      "slug": "laguna-blanca",
+      "visited": true,
+      "image_cover": "/img/comunas/laguna-blanca.jpg"
+    },
+    {
+      "region_id": "de-magallanes",
+      "name": "SAN GREGORIO",
+      "slug": "san-gregorio",
+      "visited": true,
+      "image_cover": "/img/comunas/san-gregorio.jpg"
+    },
+    {
+      "region_id": "de-magallanes",
+      "name": "PUERTO NATALES",
+      "slug": "puerto-natales",
+      "visited": true,
+      "image_cover": "/img/comunas/puerto-natales.jpg"
+    },
+    {
+      "region_id": "de-magallanes",
+      "name": "TORRES DEL PAINE",
+      "slug": "torres-del-paine",
+      "visited": true,
+      "image_cover": "/img/comunas/torres-del-paine.jpg"
+    },
+    {
+      "region_id": "de-magallanes",
+      "name": "PORVENIR",
+      "slug": "porvenir",
+      "visited": true,
+      "image_cover": "/img/comunas/porvenir.jpg"
+    },
+    {
+      "region_id": "de-magallanes",
+      "name": "PRIMAVERA",
+      "slug": "primavera",
+      "visited": true,
+      "image_cover": "/img/comunas/primavera.jpg"
+    },
+    {
+      "region_id": "de-magallanes",
+      "name": "TIMAUKEL",
+      "slug": "timaukel",
+      "visited": true,
+      "image_cover": "/img/comunas/timaukel.jpg"
+    },
+    {
+      "region_id": "de-magallanes",
+      "name": "CABO DE HORNOS",
+      "slug": "cabo-de-hornos",
+      "visited": true,
+      "image_cover": "/img/comunas/cabo-de-hornos.jpg"
+    },
+    {
+      "region_id": "de-magallanes",
+      "name": "ANTÁRTICA",
+      "slug": "antartica",
+      "visited": true,
+      "image_cover": "/img/proximamente.jpg"
+    }
+  ]
+}
